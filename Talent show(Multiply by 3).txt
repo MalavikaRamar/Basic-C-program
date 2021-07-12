@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int n,ans;
+    scanf("%d",&n);
+    ans=n*3;
+    printf("%d people were there in total",ans);
+    return 0;
+}    
