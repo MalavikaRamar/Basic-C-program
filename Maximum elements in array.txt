@@ -1,0 +1,22 @@
+Maximum of Element in array
+
+#include<stdio.h>
+int main()
+{
+    int n,arr[50],i,max;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    arr[1]=max;
+    for(i=2;i<=n;i++)
+    {
+       if(max<arr[i])
+       {
+           max=arr[i];
+       }
+    }
+    printf("%d",max);
+    return 0;
+}
