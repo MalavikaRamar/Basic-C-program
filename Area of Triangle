@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int length,breadth,Area;
+    scanf("%d %d",&length,&breadth);
+    Area=(length*breadth)/2;
+    printf("%d",Area);
+}    
